@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ai.zencoder.plugin.chat.index">
+    <option name="activeChatId" value="858ae23d-2d5d-4fe2-925d-d5ce7dfb4227" />
+    <option name="chatMetadata" value="{&quot;858ae23d-2d5d-4fe2-925d-d5ce7dfb4227&quot;:{&quot;id&quot;:&quot;858ae23d-2d5d-4fe2-925d-d5ce7dfb4227&quot;,&quot;title&quot;:&quot;Tích Hợp Chức Năng Đăng Nhập/Đăng Ký&quot;,&quot;createdAt&quot;:1758118260895,&quot;updatedAt&quot;:1758119543515,&quot;isAgent&quot;:true,&quot;isNameGenerated&quot;:true,&quot;messageCount&quot;:8,&quot;lastMessagePreview&quot;:&quot;**Examining Dart errors**\n\nI'm thinking about issues with the `RegisterScreen` in `mock_auth_service...&quot;}}" />
+  </component>
+</project>

@@ -6,6 +6,8 @@ import 'package:best_flutter_ui_templates/introduction_animation/components/spla
 import 'package:best_flutter_ui_templates/introduction_animation/components/top_back_skip_view.dart';
 import 'package:best_flutter_ui_templates/introduction_animation/components/welcome_view.dart';
 import 'package:flutter/material.dart';
+import 'package:best_flutter_ui_templates/auth/login_screen.dart';
+import 'package:best_flutter_ui_templates/auth/register_screen.dart';
 
 class IntroductionAnimationScreen extends StatefulWidget {
   const IntroductionAnimationScreen({Key? key}) : super(key: key);
@@ -64,6 +66,8 @@ class _IntroductionAnimationScreenState
             CenterNextButton(
               animationController: _animationController!,
               onNextClick: _onNextClick,
+              onLoginClick: _loginClick,
+              onSignUpClick: _signUpClick,
             ),
           ],
         ),
@@ -112,6 +116,16 @@ class _IntroductionAnimationScreenState
   }
 
   void _signUpClick() {
-    Navigator.pop(context);
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => RegisterScreen()),
+    );
+  }
+
+  void _loginClick() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => LoginScreen()),
+    );
   }
 }
